@@ -19,7 +19,7 @@ def tarjima(update,context):
 
 
 def main():
-    updater = Updater("2025289128:AAHoG-Shul-o9KNhSvQF38ePga_P4br6KUU")
+    updater = Updater("5230948329:AAEsK1WESAF1CDfyEgipL7DMO4InSJUFqg4")
 
     dispecher = updater.dispatcher
     dispecher.add_handler(CommandHandler("start", salom))
