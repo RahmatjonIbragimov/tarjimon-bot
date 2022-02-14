@@ -19,7 +19,7 @@ def tarjima(update,context):
 
 
 def main():
-    updater = Updater("TOKEN")
+    updater = Updater("tarjimanuz_bot")
 
     dispecher = updater.dispatcher
     dispecher.add_handler(CommandHandler("start", salom))
